@@ -1,22 +1,13 @@
-// function App() {
-//   return <div>App</div>;
-// }
+import users from '../users.json';
+import { PageTitle } from './PageTitle';
 
-// export default App;
+import { UsersList } from './UsersList';
 
-import user from '../user.json';
-import Profile from '../components/Profile.jsx';
-
-export default function App() {
+export const App = () => {
   return (
     <div>
-      <Profile
-        username={user.username}
-        tag={user.tag}
-        location={user.location}
-        avatar={user.avatar}
-        stats={user.stats}
-      />
+      <PageTitle text="the best instagramerses" />
+      <UsersList person={users} />
     </div>
   );
-}
+};
