@@ -1,3 +1,5 @@
+// import clsx from 'clsx';
+
 export const Profile = ({ user: { username, tag, location, active, avatar, stats } }) => {
   return (
     <>
