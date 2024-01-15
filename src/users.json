@@ -3,7 +3,7 @@
     "id": "1",
     "username": "Jacques Gluke",
     "tag": "jgluke",
-    "location": "Ocho Rios, Jamaica",
+    "location": "Ocho Rios",
     "active": true,
     "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
     "stats": {
@@ -16,7 +16,7 @@
     "id": "2",
     "username": "Mary Zala",
     "tag": "maza",
-    "location": "Is Rodos, Grecia",
+    "location": "Is Rodos",
     "active": false,
     "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998592.png",
     "stats": {
@@ -30,7 +30,7 @@
     "id": "3",
     "username": "Ivan Zala",
     "tag": "ivza",
-    "location": "Is Rodos, Grecia",
+    "location": "Is Rodos",
     "active": true,
     "avatar": "https://cdn-icons-png.flaticon.com/512/616/616438.png",
     "stats": {
