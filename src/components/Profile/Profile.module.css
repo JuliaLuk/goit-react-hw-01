@@ -1,11 +1,13 @@
-/* export const ProfileWrap = styled.div`
+.profile {
+  border: 1px solid rgb(44, 44, 216);
   width: 340px;
   margin: 0 auto;
+  margin-bottom: 20px;
   padding: 70px 50px;
   background-color: darkgrey;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-`; */
+}
 
 .description {
   width: 240px;
@@ -82,4 +84,14 @@
   justify-content: center;
   font-weight: 700;
   font-size: 18px;
+}
+
+.isActive {
+  color: green;
+}
+.isRetured {
+  color: red;
+}
+.icon {
+  color: blue;
 }

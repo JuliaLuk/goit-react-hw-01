@@ -1,28 +1,33 @@
 // import clsx from 'clsx';
-import css from '../components/Profile.module.css';
 
-// import { HiUser } from 'react-icons/hi';
-// const UserMenu = ({ name }) => {
-//   return (
-//     <div>
-//       <p>
-//         <HiUser /> {name}
-//       </p>
-//     </div>
-//   );
-// };
+import css from '../Profile/Profile.module.css';
+import { BsApple, BsEnvelopePaperFill } from 'react-icons/bs';
+import defaultAvatar from './default-avatar.png';
 
 export const Profile = ({ user: { username, tag, location, active, avatar, stats } }) => {
+  const profileImage = avatar || defaultAvatar;
+
+  // const statusClasses = clsx(css.status, {
+  //   [css.isActive]: active,
+  //   [css.isRetured]: !active,
+  // });
+  const statusClasses = active ? css.isActive : css.isRetured;
+
   return (
     <>
-      <div className="profile">
+      <div className={css.profile}>
         <div className={css.description}>
-          <img src={avatar} alt={username} className={css.avatar} />
+          <img src={profileImage} alt={username} className={css.avatar} />
           <p className={css.name}>Name: {username}</p>
-          {/* <div>{UserMenu}</div> */}
+          <BsApple className={css.icon} size="20" />
           <p className={css.tag}>Nick Name: {tag}</p>
-          <p className={css.location}>Location: {location}</p>
-          <p className={css.active}>Status: {active ? 'Active' : 'Retired'}</p>
+
+          <p className={css.location}>
+            {' '}
+            <BsEnvelopePaperFill />
+            Location: {location}
+          </p>
+          <p className={statusClasses}>Status: {active ? 'Active' : 'Retired'}</p>
         </div>
 
         <ul className={css.stats}>

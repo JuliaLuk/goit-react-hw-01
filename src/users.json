@@ -18,11 +18,25 @@
     "tag": "maza",
     "location": "Is Rodos, Grecia",
     "active": false,
-    "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998592.png",
     "stats": {
       "followers": 6503,
       "views": 9727,
       "likes": 3208
+    }
+  },
+
+  {
+    "id": "3",
+    "username": "Ivan Zala",
+    "tag": "ivza",
+    "location": "Is Rodos, Grecia",
+    "active": true,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/616/616438.png",
+    "stats": {
+      "followers": 503,
+      "views": 727,
+      "likes": 208
     }
   }
 ]
