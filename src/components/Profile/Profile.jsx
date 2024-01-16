@@ -30,7 +30,6 @@ export const Profile = ({ user: { username, tag, location, active, avatar, stats
           </p>
 
           <p className={css.location}>
-            {' '}
             <BsEnvelopePaperFill className={css.icon} size="18" />
             location: {location}
           </p>
